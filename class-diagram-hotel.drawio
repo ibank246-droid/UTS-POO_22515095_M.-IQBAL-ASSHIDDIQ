@@ -1,0 +1,255 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Class Diagram Hotel" id="hotelClassDiagramV2">
+    <mxGraphModel dx="984" dy="403" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cls_Main" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=light-dark(#000000,#000000);strokeColor=#001DBC;labelBorderColor=none;textShadow=0;" value="Main" vertex="1">
+          <mxGeometry height="152" width="340" x="785" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_Main_a" parent="cls_Main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="&lt;u&gt;- input: Scanner&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="340" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_Main_l" parent="cls_Main" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="8" width="340" y="51" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_Main_m" parent="cls_Main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="&lt;u&gt;+ main(args: String[]): void&lt;/u&gt;&lt;br&gt;&lt;u&gt;- tampilkanMenu(): void&lt;/u&gt;&lt;br&gt;&lt;u&gt;- bacaInt(pesan: String): int&lt;/u&gt;&lt;br&gt;&lt;u&gt;- bacaDouble(pesan: String): double&lt;/u&gt;&lt;br&gt;&lt;u&gt;- bacaString(pesan: String): String&lt;/u&gt;" vertex="1">
+          <mxGeometry height="93" width="340" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_Hotel" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=light-dark(#000000,#000000);strokeColor=#001DBC;labelBorderColor=none;textShadow=0;" value="Hotel" vertex="1">
+          <mxGeometry height="390" width="600" x="655" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_Hotel_a" parent="cls_Hotel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="- nama: String&lt;br&gt;- alamat: String&lt;br&gt;- bintang: int&lt;br&gt;- aktif: boolean" vertex="1">
+          <mxGeometry height="76" width="600" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_Hotel_l" parent="cls_Hotel" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="8" width="600" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_Hotel_m" parent="cls_Hotel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="+ Hotel()&lt;br&gt;+ Hotel(nama: String, alamat: String, bintang: int)&lt;br&gt;+ setNama(nama: String): void&lt;br&gt;+ setBintang(bintang: int): void&lt;br&gt;+ tambahKamar(k: Kamar): String&lt;br&gt;+ tambahTamu(t: Tamu): String&lt;br&gt;+ buatReservasi(kode: String, idTamu: String, noKamar: String, malam: int): String&lt;br&gt;+ cariKamar(nomor: String): Kamar&lt;br&gt;+ cariTamu(kunci: String): Tamu&lt;br&gt;+ batalkanReservasiTerakhir(): String&lt;br&gt;+ lihatReservasiTerakhir(): String&lt;br&gt;+ tampilkanRiwayat(): void&lt;br&gt;+ hitungTotalPendapatan(): double&lt;br&gt;+ tampilkanKamar(): void&lt;br&gt;+ tampilkanTamu(): void&lt;br&gt;+ tampilkanRingkasan(): void" vertex="1">
+          <mxGeometry height="280" width="600" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_Kamar" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=light-dark(#000000,#000000);strokeColor=#001DBC;labelBorderColor=none;textShadow=0;" value="Kamar" vertex="1">
+          <mxGeometry height="271" width="380" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_Kamar_a" parent="cls_Kamar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="- nomor: String&lt;br&gt;- tipe: String&lt;br&gt;- tarif: double&lt;br&gt;- terisi: boolean" vertex="1">
+          <mxGeometry height="76" width="380" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_Kamar_l" parent="cls_Kamar" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="8" width="380" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_Kamar_m" parent="cls_Kamar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="+ Kamar()&lt;br&gt;+ Kamar(nomor: String, tipe: String, tarif: double)&lt;br&gt;+ getNomor(): String&lt;br&gt;+ getTarif(): double&lt;br&gt;+ setTarif(tarif: double): void&lt;br&gt;+ isTerisi(): boolean&lt;br&gt;+ pesan(): boolean&lt;br&gt;+ kosongkan(): void&lt;br&gt;+ tampilkanInfo(): void" vertex="1">
+          <mxGeometry height="161" width="380" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_Reservasi" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=light-dark(#000000,#000000);strokeColor=#001DBC;labelBorderColor=none;textShadow=0;" value="Reservasi" vertex="1">
+          <mxGeometry height="288" width="440" x="520" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_Reservasi_a" parent="cls_Reservasi" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="- kode: String&lt;br&gt;- malam: int&lt;br&gt;- tarifMalam: double&lt;br&gt;- aktif: boolean" vertex="1">
+          <mxGeometry height="76" width="440" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_Reservasi_l" parent="cls_Reservasi" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="8" width="440" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_Reservasi_m" parent="cls_Reservasi" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="+ Reservasi()&lt;br&gt;+ Reservasi(kode: String, tamu: Tamu, kamar: Kamar, malam: int)&lt;br&gt;+ getKode(): String&lt;br&gt;+ getKamar(): Kamar&lt;br&gt;+ getTamu(): Tamu&lt;br&gt;+ isAktif(): boolean&lt;br&gt;+ setMalam(malam: int): void&lt;br&gt;+ hitungBiaya(): double&lt;br&gt;+ batalkan(): void&lt;br&gt;+ tampilkanInfo(): void" vertex="1">
+          <mxGeometry height="178" width="440" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_Tamu" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=light-dark(#000000,#000000);strokeColor=#001DBC;labelBorderColor=none;textShadow=0;" value="Tamu" vertex="1">
+          <mxGeometry height="220" width="380" x="1530" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_Tamu_a" parent="cls_Tamu" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="- idTamu: String&lt;br&gt;- nama: String&lt;br&gt;- noTelp: String&lt;br&gt;- totalMalam: int" vertex="1">
+          <mxGeometry height="76" width="380" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_Tamu_l" parent="cls_Tamu" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="8" width="380" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_Tamu_m" parent="cls_Tamu" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="+ Tamu()&lt;br&gt;+ Tamu(idTamu: String, nama: String, noTelp: String)&lt;br&gt;+ setNama(nama: String): void&lt;br&gt;+ tambahMalam(malam: int): void&lt;br&gt;+ cocok(kunci: String): boolean&lt;br&gt;+ tampilkanInfo(): void" vertex="1">
+          <mxGeometry height="110" width="380" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_RiwayatStack" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=light-dark(#000000,#000000);strokeColor=#001DBC;labelBorderColor=none;textShadow=0;" value="RiwayatStack" vertex="1">
+          <mxGeometry height="237" width="340" x="1100" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_RiwayatStack_a" parent="cls_RiwayatStack" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="- kapasitas: int" vertex="1">
+          <mxGeometry height="42" width="340" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_RiwayatStack_l" parent="cls_RiwayatStack" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="8" width="340" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_RiwayatStack_m" parent="cls_RiwayatStack" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="+ RiwayatStack()&lt;br&gt;+ RiwayatStack(kapasitas: int)&lt;br&gt;+ push(r: Reservasi): void&lt;br&gt;+ pop(): Reservasi&lt;br&gt;+ peek(): Reservasi&lt;br&gt;+ isEmpty(): boolean&lt;br&gt;+ isFull(): boolean&lt;br&gt;+ size(): int&lt;br&gt;+ toString(): String" vertex="1">
+          <mxGeometry height="161" width="340" y="76" as="geometry" />
+        </mxCell>
+        <mxCell id="e_main_hotel" edge="1" parent="1" source="cls_Main" style="html=1;rounded=0;endSize=12;startSize=14;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);dashed=1;endArrow=open;endFill=0;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;" target="cls_Hotel" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_main_hotel_l0" connectable="0" parent="e_main_hotel" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontStyle=1;defaultLabelBackgroundColor=page;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="menggunakan" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="58" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_main_kamar" edge="1" parent="1" source="cls_Main" style="html=1;rounded=0;endSize=12;startSize=14;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);dashed=1;endArrow=open;endFill=0;exitX=0.0000;exitY=0.5263;exitDx=0;exitDy=0;entryX=0.0000;entryY=0.7380;entryDx=0;entryDy=0;" target="cls_Kamar" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-70" y="80" />
+              <mxPoint x="-70" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_main_kamar_l0" connectable="0" parent="e_main_kamar" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontStyle=1;defaultLabelBackgroundColor=page;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="membuat" vertex="1">
+          <mxGeometry relative="1" x="-0.4714" as="geometry">
+            <mxPoint x="-1" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_main_tamu" edge="1" parent="1" source="cls_Main" style="html=1;rounded=0;endSize=12;startSize=14;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);dashed=1;endArrow=open;endFill=0;exitX=1.0000;exitY=0.5263;exitDx=0;exitDy=0;entryX=1.0000;entryY=0.9091;entryDx=0;entryDy=0;" target="cls_Tamu" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2010" y="80" />
+              <mxPoint x="2010" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_main_tamu_l0" connectable="0" parent="e_main_tamu" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontStyle=1;defaultLabelBackgroundColor=page;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="membuat" vertex="1">
+          <mxGeometry relative="1" x="-0.5409" as="geometry">
+            <mxPoint y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_hotel_kamar" edge="1" parent="1" source="cls_Hotel" style="html=1;rounded=0;endSize=12;startSize=14;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);endArrow=none;startArrow=diamondThin;startFill=0;exitX=0.0000;exitY=0.2821;exitDx=0;exitDy=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;" target="cls_Kamar" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_hotel_kamar_l0" connectable="0" parent="e_hotel_kamar" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontStyle=1;defaultLabelBackgroundColor=page;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="memiliki" vertex="1">
+          <mxGeometry relative="1" x="-0.4749" as="geometry">
+            <mxPoint y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_hotel_kamar_l1" connectable="0" parent="e_hotel_kamar" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontStyle=1;defaultLabelBackgroundColor=page;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.9106" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_hotel_kamar_l2" connectable="0" parent="e_hotel_kamar" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontStyle=1;defaultLabelBackgroundColor=page;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.9419" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_hotel_tamu" edge="1" parent="1" source="cls_Hotel" style="html=1;rounded=0;endSize=12;startSize=14;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);endArrow=none;startArrow=diamondThin;startFill=0;exitX=1.0000;exitY=0.2821;exitDx=0;exitDy=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;" target="cls_Tamu" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1720" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_hotel_tamu_l0" connectable="0" parent="e_hotel_tamu" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontStyle=1;defaultLabelBackgroundColor=page;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="melayani" vertex="1">
+          <mxGeometry relative="1" x="-0.6313" as="geometry">
+            <mxPoint x="1" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_hotel_tamu_l1" connectable="0" parent="e_hotel_tamu" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontStyle=1;defaultLabelBackgroundColor=page;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.9106" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_hotel_tamu_l2" connectable="0" parent="e_hotel_tamu" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontStyle=1;defaultLabelBackgroundColor=page;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.9419" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_hotel_res" edge="1" parent="1" source="cls_Hotel" style="html=1;rounded=0;endSize=12;startSize=14;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);endArrow=none;startArrow=diamondThin;startFill=1;exitX=0.1417;exitY=1.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;" target="cls_Reservasi" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_hotel_res_l0" connectable="0" parent="e_hotel_res" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontStyle=1;defaultLabelBackgroundColor=page;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="mencatat" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_hotel_res_l1" connectable="0" parent="e_hotel_res" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontStyle=1;defaultLabelBackgroundColor=page;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.44" as="geometry">
+            <mxPoint x="14" y="-26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_hotel_res_l2" connectable="0" parent="e_hotel_res" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontStyle=1;defaultLabelBackgroundColor=page;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.7867" as="geometry">
+            <mxPoint x="15" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_hotel_stack" edge="1" parent="1" source="cls_Hotel" style="html=1;rounded=0;endSize=12;startSize=14;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);endArrow=none;startArrow=diamondThin;startFill=1;exitX=0.8583;exitY=1.0000;exitDx=0;exitDy=0;entryX=0.2059;entryY=0.0000;entryDx=0;entryDy=0;" target="cls_RiwayatStack" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_hotel_stack_l0" connectable="0" parent="e_hotel_stack" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontStyle=1;defaultLabelBackgroundColor=page;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="riwayat" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_hotel_stack_l1" connectable="0" parent="e_hotel_stack" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontStyle=1;defaultLabelBackgroundColor=page;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.44" as="geometry">
+            <mxPoint x="16" y="-29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_hotel_stack_l2" connectable="0" parent="e_hotel_stack" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontStyle=1;defaultLabelBackgroundColor=page;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.7867" as="geometry">
+            <mxPoint x="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_res_kamar" edge="1" parent="1" source="cls_Reservasi" style="html=1;rounded=0;endSize=12;startSize=14;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);endArrow=open;endFill=0;startArrow=none;exitX=0.0000;exitY=0.5208;exitDx=0;exitDy=0;entryX=1.0000;entryY=0.5535;entryDx=0;entryDy=0;" target="cls_Kamar" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_res_kamar_l0" connectable="0" parent="e_res_kamar" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontStyle=1;defaultLabelBackgroundColor=page;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="memesan" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-6" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_res_kamar_l1" connectable="0" parent="e_res_kamar" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontStyle=1;defaultLabelBackgroundColor=page;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="-0.6286" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_res_kamar_l2" connectable="0" parent="e_res_kamar" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontStyle=1;defaultLabelBackgroundColor=page;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.6857" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_stack_res" edge="1" parent="1" source="cls_RiwayatStack" style="html=1;rounded=0;endSize=12;startSize=14;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);endArrow=open;endFill=0;startArrow=none;exitX=0.0000;exitY=0.6329;exitDx=0;exitDy=0;entryX=1.0000;entryY=0.5208;entryDx=0;entryDy=0;" target="cls_Reservasi" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_stack_res_l0" connectable="0" parent="e_stack_res" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontStyle=1;defaultLabelBackgroundColor=page;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="menyimpan" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_stack_res_l1" connectable="0" parent="e_stack_res" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontStyle=1;defaultLabelBackgroundColor=page;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="0..1" vertex="1">
+          <mxGeometry relative="1" x="-0.6286" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_stack_res_l2" connectable="0" parent="e_stack_res" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontStyle=1;defaultLabelBackgroundColor=page;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.6286" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_res_tamu" edge="1" parent="1" source="cls_Reservasi" style="html=1;rounded=0;endSize=12;startSize=14;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);endArrow=open;endFill=0;startArrow=none;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=1.0000;entryDx=0;entryDy=0;" target="cls_Tamu" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="1128" />
+              <mxPoint x="1720" y="1128" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_res_tamu_l0" connectable="0" parent="e_res_tamu" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontStyle=1;defaultLabelBackgroundColor=page;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="atas nama" vertex="1">
+          <mxGeometry relative="1" x="-0.0244" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_res_tamu_l1" connectable="0" parent="e_res_tamu" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontStyle=1;defaultLabelBackgroundColor=page;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="-0.9721" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_res_tamu_l2" connectable="0" parent="e_res_tamu" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontStyle=1;defaultLabelBackgroundColor=page;labelBorderColor=none;textShadow=0;fontColor=light-dark(#000000,#000000);" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.9721" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
